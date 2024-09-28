@@ -1,5 +1,7 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
+import AboutSection from "./components/AboutSection";
+import TechSection from "./components/TechSection";
 
 
 export default function Home() {
@@ -7,6 +9,8 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#121212]">
       <div class="container mx-auto py-4 px-12">
         <HeroSection></HeroSection>
+        <AboutSection/>
+        <TechSection/>
       </div>
       
     </main>
