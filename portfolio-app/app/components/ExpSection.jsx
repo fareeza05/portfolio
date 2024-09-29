@@ -4,18 +4,19 @@ import { CardSpotlight } from './ui/card-spotlight';
 const ExpSection = () => {
   return (
     <section>
-      <p className='text-pink-400 mt-[200px] w-[500px] p-1 flex items-center justify-center mx-auto font-semibold
+      <p className='text-pink-200 mt-[100px] w-[500px] p-1 flex items-center justify-center mx-auto font-semibold
       '>
         PROFESSIONAL & PERSONAL GROWTH
       </p>
 
-      <h2 className='text-2xl font-bold size-2xl mt-8 place-self-center p-1 flex items-center justify-center mx-auto 
-      text-transparent bg-clip-text bg-gradient-to-t font-sans from-blue-400 to-pink-500'>
+      <h2 className='size-2xl mt-8 place-self-center p-1 flex items-center justify-center
+      max-w-3xl pl-4 mx-auto text-xl md:text-4xl font-bold font-sans text-transparent 
+      bg-clip-text bg-gradient-to-br from-blue-500 via-purple-400 to-pink-400'>
         Professional
       </h2>
 
       <div className="flex items-center justify-center flex-col gap-6 mt-4">
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[300px] text-white p-8 rounded-[20px]">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[300px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Vertex Inc.</h2>
         <p className='font-extralight mb-2 z-20 relative'>Software Engineering Intern | June 2024 - August 2024</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
@@ -32,7 +33,7 @@ const ExpSection = () => {
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px z-20 relative]">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] z-20 relative]  border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>EnCoDe Research Lab, USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Research Assistant | January 2024 - Present</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
@@ -50,13 +51,14 @@ const ExpSection = () => {
         </CardSpotlight>
       </div>
 
-      <h2 className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-500 
-      text-2xl font-bold size-xl mt-12 place-self-center p-1 flex items-center justify-center mx-auto'>
-        LEADERSHIP
+      <h2 className='size-2xl mt-8 place-self-center p-1 flex items-center justify-center
+      max-w-3xl pl-4 mx-auto text-xl md:text-4xl font-bold font-sans text-transparent 
+      bg-clip-text bg-gradient-to-br from-blue-500 via-purple-400 to-pink-400'>
+        Leadership
       </h2>
 
       <div className="flex items-center justify-center flex-col gap-6 mt-4">
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px]">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px]  border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Association for Computing Machinery (ACM), USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Vice President | May 2024 - Present</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
@@ -64,7 +66,7 @@ const ExpSection = () => {
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px]">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Association for Computing Machinery (ACM), USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Outreach Chair | May 2023 - May 2024</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
@@ -72,7 +74,7 @@ const ExpSection = () => {
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px]">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Association for Computing Machinery (ACM), USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Graphic Design Shadow | October 2022 - May 2023</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
@@ -80,7 +82,7 @@ const ExpSection = () => {
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px]">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Bulls LEAD, USF College of Engineering</h2>
         <p className='font-extralight mb-2 z-20 relative'>Cohort 5 Member | August 2023 - Present</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>

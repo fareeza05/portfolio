@@ -7,7 +7,7 @@ import { GlareCard } from './ui/glare-card'
 const TechSection = () => {
   return (
     <section>
-        <p className='text-pink-400 mt-[100px]  w-[300px] p-1 flex items-center justify-center mx-auto font-semibold'>
+        <p className='text-pink-200 mt-[200px]  w-[300px] p-1 flex items-center justify-center mx-auto font-semibold'>
         MY TECHNICAL EXPERIENCE</p>
     
     <div className='mt-[50px] grid grid-cols-4 gap-[200px] place-items-center'>

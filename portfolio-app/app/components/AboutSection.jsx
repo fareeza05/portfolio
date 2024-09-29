@@ -67,7 +67,7 @@ const AboutSection = () => {
     return (
       <section className='text-white'>
 
-    <p className='text-pink-400 mt-[100px]  w-[180px] p-1 flex items-center justify-center mx-auto font-semibold'>
+    <p className='text-pink-200 mt-[270px]  w-[180px] p-1 flex items-center justify-center mx-auto font-semibold'>
   GET TO KNOW ME
     </p>
 
@@ -82,7 +82,7 @@ const AboutSection = () => {
           />
         
           <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-            <h2 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-400 to-pink-400 mb-4 font-mono'>About Me</h2>
+            <h2 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-400 to-pink-400 mb-4 font-sans'>About Me</h2>
             <p className='text-base lg:text-lg'> 
               My academic coursework has given me a solid foundation in object-oriented 
               programming, data structures, and algorithms. 
