@@ -82,7 +82,7 @@ const AboutSection = () => {
           />
         
           <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-            <h2 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-400 to-pink-400 mb-4'>About Me</h2>
+            <h2 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-400 to-pink-400 mb-4 font-mono'>About Me</h2>
             <p className='text-base lg:text-lg'> 
               My academic coursework has given me a solid foundation in object-oriented 
               programming, data structures, and algorithms. 

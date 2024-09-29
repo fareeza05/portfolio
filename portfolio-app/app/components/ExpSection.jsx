@@ -9,9 +9,9 @@ const ExpSection = () => {
         PROFESSIONAL & PERSONAL GROWTH
       </p>
 
-      <h2 className='text-xl font-bold size-2xl mt-8 place-self-center p-1 flex items-center justify-center mx-auto 
-      text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-pink-500'>
-        PROFESSIONAL
+      <h2 className='text-2xl font-bold size-2xl mt-8 place-self-center p-1 flex items-center justify-center mx-auto 
+      text-transparent bg-clip-text bg-gradient-to-t font-sans from-blue-400 to-pink-500'>
+        Professional
       </h2>
 
       <div className="flex items-center justify-center flex-col gap-6 mt-4">
