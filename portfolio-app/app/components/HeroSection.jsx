@@ -105,7 +105,7 @@ const HeroSection = () => {
             </div>
         </div>
         <FloatingDock items={Items}   
-        desktopClassName="fixed bottom-20 left-1/2 transform -translate-x-1/2 w-full w-[360px] mx-auto" 
+        desktopClassName="fixed bottom-20 left-1/2 transform -translate-x-1/2 w-full w-[360px] mx-auto z-20" 
         mobileClassName="fixed bottom-4 right-4 mx-w-[300px] mx-auto" />
     </section>
   )
