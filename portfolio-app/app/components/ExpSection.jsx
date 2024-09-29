@@ -33,7 +33,7 @@ const ExpSection = () => {
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] z-20 relative]  border-gray-600 hover:border-blue-300">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] z-20 relative  border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>EnCoDe Research Lab, USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Research Assistant | January 2024 - Present</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
@@ -58,34 +58,54 @@ const ExpSection = () => {
       </h2>
 
       <div className="flex items-center justify-center flex-col gap-6 mt-4">
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px]  border-gray-600 hover:border-blue-300">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[300px] text-white p-8 rounded-[20px]  border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Association for Computing Machinery (ACM), USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Vice President | May 2024 - Present</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
+          <li>Lead a team of 25+ members, driving organizational growth through executive decision-making and strategic planning</li>
+          <li>Oversaw diverse operations including workshops, projects, marketing, and outreach efforts, ensuring high-quality execution and member engagement</li>
+          <li>Implemented strategies resulting in 500+ new social media followers and active members, fostering a vibrant, inclusive community within the ACM chapter</li>
 
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[300px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Association for Computing Machinery (ACM), USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Outreach Chair | May 2023 - May 2024</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
-  
+          <li>Cultivated strategic partnerships with student organizations and industry professionals to host career- 
+ enhancing events, driving student engagement.</li>
+        <li>
+        Conducted comprehensive market research to secure distinguished speakers for ACM Talks, delivering 
+        educational value to the student community.
+        </li>
+        <li>
+        Collaborated closely with 15 ACM officers, overseeing event logistics and contributing to the growth of 
+ a robust 800+ student network.
+        </li>
+          
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[200px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Association for Computing Machinery (ACM), USF</h2>
         <p className='font-extralight mb-2 z-20 relative'>Graphic Design Shadow | October 2022 - May 2023</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
+          <li>Create visually compelling flyers for various events and initiatives, effectively communicating key information while maintaining brand consistency and enhancing audience engagement</li>
       
         </ul>
         </CardSpotlight>
 
-        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[350px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
+        <CardSpotlight radius={100} color="#262626" className="w-[700px] h-[250px] text-white p-8 rounded-[20px] border-gray-600 hover:border-blue-300">
         <h2 className='place-self-center text-xl mb-2 font-semibold z-20 relative'>Bulls LEAD, USF College of Engineering</h2>
         <p className='font-extralight mb-2 z-20 relative'>Cohort 5 Member | August 2023 - Present</p>
         <ul className='list-disc list-inside ml-4 z-20 relative'>
+          <li> Engaged in transformative model of leadership to foster essential competencies required to drive
+organizational growth through innovation and technology</li>
+<li>
+Committed to people-centered leadership by fostering valuable relationships and receiving guidance
+to enhance personal and leadership growth
+</li>
       
         </ul>
         </CardSpotlight>
