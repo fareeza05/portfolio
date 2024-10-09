@@ -1,7 +1,8 @@
-"use client"
-import React, {useTransition, useState} from 'react'
-import Image from 'next/image'
-import TabButton from './TabButton'
+"use client";
+import React, {useTransition, useState} from 'react';
+import Image from 'next/image';
+import TabButton from './TabButton';
+import {motion} from "framer-motion";
 
 const TAB_DATA = [
     {
@@ -65,22 +66,28 @@ const AboutSection = () => {
     };
 
     return (
-      <section className='text-white'>
+      <section className='text-white' id='about'>
 
-    <p className='text-pink-200 mt-[270px]  w-[180px] p-1 flex items-center justify-center mx-auto font-semibold'>
+    <p className='text-pink-200 mt-[200px]  w-[180px] p-1 flex items-center justify-center mx-auto font-semibold pt-[70px]'>
   GET TO KNOW ME
     </p>
 
 
 
         <div className=' md:grid md:grid-cols-2 gap-4 items-center py-4 px-2 xl:gap-8 sm:py-16 xl:px-12'>
-          <Image 
-            src='/images/c765433d7a77bc87a8002b578d004e62.jpeg' 
-            width={250} 
-            height={250} 
-            alt='Profile image'
-          />
-        
+        <motion.div
+        className="w-full"
+        whileHover={{ y: -10 }}  // Move the image up when hovered
+        transition={{ type: "spring", stiffness: 100, damping: 10 }}
+      >
+        <Image
+          src="/images/A woman reading a book.png"
+          width={500}
+          height={500}
+          alt="Profile image"
+          className="rounded-xl shadow-lg"
+        />
+      </motion.div>
           <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
             <h2 className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-400 to-pink-400 mb-4 font-sans'>About Me</h2>
             <p className='text-base lg:text-lg'> 

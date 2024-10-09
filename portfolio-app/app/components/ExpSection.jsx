@@ -3,8 +3,8 @@ import { CardSpotlight } from './ui/card-spotlight';
 
 const ExpSection = () => {
   return (
-    <section>
-      <p className='text-pink-200 mt-[100px] w-[500px] p-1 flex items-center justify-center mx-auto font-semibold
+    <section id='professional'>
+      <p className='text-pink-200 mt-[130px] pt-[70px] w-[500px] p-1 flex items-center justify-center mx-auto font-semibold
       '>
         PROFESSIONAL & PERSONAL GROWTH
       </p>

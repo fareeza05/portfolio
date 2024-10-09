@@ -6,11 +6,11 @@ import { GlareCard } from './ui/glare-card'
 
 const TechSection = () => {
   return (
-    <section>
-        <p className='text-pink-200 mt-[200px]  w-[300px] p-1 flex items-center justify-center mx-auto font-semibold'>
+    <section id='tech'>
+        <p className='text-pink-200 mt-[230px] pt-[70px]  w-[300px] p-1 flex items-center justify-center mx-auto font-semibold'>
         MY TECHNICAL EXPERIENCE</p>
     
-    <div className='mt-[50px] grid grid-cols-4 gap-[200px] place-items-center'>
+    <div className='mt-[100px] grid grid-cols-4 gap-[200px] place-items-center'>
         <GlareCard className="z-[0] ml-0 items-center justify-center text-center p-2">
             <h2 className='font-semibold mt-4 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-400 to-pink-400'>LANGUAGES</h2>
             <ul className='mt-4 text-lg space-y-2 font-bold font-sans text-blue-300'>
