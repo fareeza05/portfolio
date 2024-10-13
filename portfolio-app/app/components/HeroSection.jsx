@@ -40,7 +40,7 @@ const HeroSection = () => {
                         </span>
                         </button>
                     <button className='flex items-center px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-400 to-pink-400 hover:bg-slate-800 text-white mt-3'>
-                    <a href="https://drive.google.com/file/d/1n4paK9zOMdkySq0qSzURk2vZnE1kY1GD/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1Xvg85aDk9ooGrnxs1KKAsO_gYwtT2VSo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <span className='flex items-center bg-[#121212] hover:bg-slate-100 hover:opacity-40 hover:text-black rounded-full px-5 py-2'>
                             Resume
                             <IconDownload className='w-4 h-4 ml-2' />
